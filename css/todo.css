@@ -1,0 +1,31 @@
+body {
+    padding-top: 50px;
+}
+
+.todoapp {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.edit-mode{
+    display: none;
+}
+
+#todo-list {
+    margin: 10px 0;
+    padding: 0;
+    list-style: none;
+}
+
+#todo-list li.editing .edit-mode {
+    display: block;
+}
+
+#todo-list li.editing .view-mode {
+    display: none;
+}
+
+li.done div.view-mode label{
+    text-decoration: line-through;
+}
+
